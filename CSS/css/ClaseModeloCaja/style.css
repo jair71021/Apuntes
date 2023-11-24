@@ -1,0 +1,20 @@
+/* ? Selector Universal (*) */
+*{
+    box-sizing:border-box; /* box-sizing le estamos diciendo que sume eñ padding con el width del elemento asi 
+    que si yo le agrego mas padding  en automaticamente el tamaño del width disminuyo lo que hace que es que se hace un calculo 
+    entonces dice del tamaño del width que yo tengo voy a restarle el padding y el border para que no salga de elnavegador para que 
+    tengamos la dimension justa y no generemos ese scroll*/
+    padding: 0;
+    margin: 0;
+} 
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid greenyellow;
+    /* ! padding: 20px ; Se le agrega 20 pixele arriba , abajo , derecha y izquierda */
+    /* ? padding: 20px 35px ; Cuando a gregas otro pixeles el navegador lo va a ller de la sig manera 
+        ? el primer digito es para arriba y abajo(20px) y el segundo digito es para derecha y izquierda(35px). */
+    padding: 20px 35px;
+    
+}

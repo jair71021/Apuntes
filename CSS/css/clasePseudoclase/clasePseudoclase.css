@@ -1,0 +1,36 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none; /* Esta clase sirve para quitar o desaparecer los punto*/
+    padding-left: 0; /* Esta clase sirve para recorrer la palabra hacia una posicion que requiera  o un espacio interno en un contendor*/
+    background-color: rgb(128, 202, 202);
+}
+.main-nav__item{
+    display: inline-block; /* Esta clase sirver para poner horizontal la palabra*/
+}
+/* ? para cambiar la el color de la etiqueta a*/
+.main-nav__item a {
+    color: white;/*Esta clase sirve para cambiar el color de la letra o parrafo*/
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;/* Esta clase quita la linea de la etiqueta a*/
+}
+/* ? para crear un efecto con hover*/
+.main-nav__item a:hover{
+    color: blue;
+}
+/*? este sirve para que cuando de click o algo se activa el hover*/
+.main-nav__item a:active{
+    color: red;
+}
+.main-nav__item a::after{
+    content: " l";/* esta clase sirve para  dar contenido dentro de css*/
+}
+/*
+! pseudo clases
+?  :class Define estilo de un estado especiales de un elemento
+
+
+! Pseudo elemento 
+? ::element Define el estilo de una parte especifica de un elemento
+
+*/
